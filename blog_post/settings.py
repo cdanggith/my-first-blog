@@ -25,7 +25,7 @@ SECRET_KEY = 'lmv*_rwwqbh*qs(y-@)idp$u)6n8hrow!uuujgh#55n0@d2*j*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'cdangpyth.pythonanywhere.com']
+ALLOWED_HOSTS = ['', 'localhost', 'cdangpyth.pythonanywhere.com']
 
 
 # Application definition
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'blog_post.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["blog_post/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
